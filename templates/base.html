@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kyle's Portfolio</title>
+    <link rel="stylesheet" href="{% static '/css/home.css'%}"
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+
+    {% block content %}
+    replace me
+    {% endblock%}
+
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
